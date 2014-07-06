@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Arrow Navigation Styles</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+
+
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			</header>
+			<section class="color-3">
+				<nav class="nav-fillpath">
+					<a class="prev" href="/item1">
+						<span class="icon-wrap"></span>
+						<h3><strong>Danny</strong> Fleming</h3>
+					</a>
+					<a class="next" href="/item3">
+						<span class="icon-wrap"></span>
+						<h3><strong>Susan</strong> Walter</h3>
+					</a>
+				</nav>
+			</section>
+		</div><!-- /container -->
+		<script>
+			// For Demo purposes only
+			[].slice.call( document.querySelectorAll('nav > a') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+			} );
+		</script>
+	</body>
+</html>

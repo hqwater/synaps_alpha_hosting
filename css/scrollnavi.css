@@ -1,0 +1,43 @@
+/* 
+    Name: ScrollNavi.js css file
+    Author: senthilkumar
+    Website: http://senthildesigner.co.nr/
+    mail: senthil2rajan@gmail.com
+*/
+
+
+            #nav_h{ width: 200px;   font-size: 14px;  position: absolute; display: table; top:550px; left: 50%; margin-left: -100px; z-index:999;
+				text-align: center;
+				-webkit-transition-duration: .3s;
+
+				-moz-transition-duration: .3s;
+
+				-ms-transition-duration: .3s;
+
+				transition-duration: .3s;
+
+				transition-property: background-color,top;
+				transition-delay: 0.1s,0s;
+				transition-duration: .3s,0.1s;
+
+             }
+
+            #nav_h.onpage{
+            	margin-top: 30px;
+            }
+
+            #nav_h.ontop{
+            	margin-top: 0px;
+            }
+
+
+            .container{ margin: 0 auto; width: 980px;}
+            #section1{ line-height: 600px; background: #059ee4; width: 100%; float: left;  overflow: auto; background-color: rgba(255, 255, 255, 0.05);}
+            #section2{ line-height: 600px; background: #a4a8ab; width: 100%; float: left;  overflow: auto;}
+            #section3{ line-height: 600px; background: #38383a; width: 100%; float: left;  overflow: auto;}
+
+
+@media only screen 
+and (max-width : 979px) {
+.container{ margin: 0 auto; width: 100%; float:left;}
+}
